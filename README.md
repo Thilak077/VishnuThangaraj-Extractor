@@ -25,6 +25,38 @@ This Spring Boot application is designed to manage wishlists for users. It provi
 - spring.datasource.url = jdbc:postgresql://localhost:5432/--Mention Your Database Name here--
 - spring.datasource.username = Your userName
 - spring.datasource.password = Your Password
+4. **Build and Run the Application:**
+5. **Access the Application:**
+Open your web browser and go to `http://localhost:8081/api/___`.
 
+## Usage
+
+1. **User Registration:**
+
+- Navigate to the registration page.
+- Fill in the required details (username, email, password).
+- Click on the "Register" button.
+
+2. **User Login:**
+
+- Navigate to the login page.
+- Enter your username and password.
+- Click on the "Login" button.
+
+3. **View Wishlist:**
+
+- Once logged in, you will be redirected to your wishlist page.
+- Here, you can view all the items in your wishlist.
+
+4. **Add Item to Wishlist:**
+
+- Click on the "Add Item" button.
+- Enter the details of the item (name, description, etc.).
+- Click on the "Add" button to add the item to your wishlist.
+
+5. **Delete Item from Wishlist:**
+
+- Each item in the wishlist will have a "Delete" button.
+- Click on the "Delete" button next to the item you want to remove from your wishlist.
 
 
