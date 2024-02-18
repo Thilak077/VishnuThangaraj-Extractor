@@ -22,6 +22,9 @@ This Spring Boot application is designed to manage wishlists for users. It provi
 3. **Database Configuration:**
 - Install and configure Postgresql.
 - Update `application.properties` with your database credentials.
-    - 
+ spring.datasource.url = jdbc:postgresql://localhost:5432/--Mention Your Database Name here--
+ spring.datasource.username = Your userName
+ spring.datasource.password = Your Password
+
 
 
