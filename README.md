@@ -9,7 +9,7 @@ This Spring Boot application is designed to manage wishlists for users. It provi
 - Wishlist Management: Logged-in users can view, add, and delete items from their own wishlist.
 
 ## Requirements
-- Java Version v.17.0+
+- Java Version V17+
 - Java IDE with Maven Support (eg. IntelliJ, Eclipse)
 - PgAdmin (Postgresql) - Database
 - PostMan ( Testing API)
