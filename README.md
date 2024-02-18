@@ -56,4 +56,10 @@ Open your web browser and go to `http://localhost:8081/api/___`.
 - Send the Id of the wishlist item of the current user in to delete the Wishlist item in DELETE API.
 - Authentication Required (Beared Token)
 
+## Contribution
 
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](Apache2.0).
