@@ -33,30 +33,27 @@ Open your web browser and go to `http://localhost:8081/api/___`.
 
 1. **User Registration:**
 
-- Navigate to the registration page.
-- Fill in the required details (username, email, password).
-- Click on the "Register" button.
-
+- Navigate to the registration endpoint.
+- Send the required details (name, email, gender, password) as JSON Object.
+  
 2. **User Login:**
 
-- Navigate to the login page.
-- Enter your username and password.
-- Click on the "Login" button.
+- Navigate to the login endpoint.
+- Send the required details as JSON Object.
 
 3. **View Wishlist:**
 
-- Once logged in, you will be redirected to your wishlist page.
-- Here, you can view all the items in your wishlist.
+- Once logged in, Jwt Token will be generated.
+- Use the Jwt-Token to access the current user Wishlist.
 
 4. **Add Item to Wishlist:**
 
-- Click on the "Add Item" button.
-- Enter the details of the item (name, description, etc.).
-- Click on the "Add" button to add the item to your wishlist.
+- Send the the details of the item (name, description) as JSON Object.
+- Authentication Required (Beared Token)
 
 5. **Delete Item from Wishlist:**
 
-- Each item in the wishlist will have a "Delete" button.
-- Click on the "Delete" button next to the item you want to remove from your wishlist.
+- Send the Id of the wishlist item of the current user in to delete the Wishlist item in DELETE API.
+- Authentication Required (Beared Token)
 
 
